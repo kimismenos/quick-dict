@@ -1,0 +1,32 @@
+body {
+	width: 600px;
+}
+
+table {
+	width: 600px;
+}
+
+tbody:nth-child(2) {
+	background-color: #ccc;
+}
+
+th {
+	background-color: #aaa;
+}
+
+#temp {
+	display: none;
+}
+
+#query-field {
+	width: 100%;
+	text-decoration: none;
+}
+
+#search-btn {
+	width: 100%;
+}
+
+#results {
+	width: 600px;
+}

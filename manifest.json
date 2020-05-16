@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "dict.cc Translator",
+	"version": "1.1",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	],
+	"background": {
+		"scripts": ["bg-script.js"]
+	},
+	"browser_action": {
+		"default_popup": "popup/index.html",
+		"default_title": "Query dict.cc"
+	},
+	"permissions": ["tabs"],
+	"commands": {
+    	"_execute_browser_action": {
+		    "suggested_key": {
+		      "mac": "Alt+J",
+		      "linux": "Ctrl+Shift+Space",
+		      "windows": "Ctrl+Shift+Space"
+		    }
+    	}
+	}
+}
