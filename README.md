@@ -9,7 +9,7 @@ quick-dict is a small Chrome extension which provides a simple user interface to
 * Select the directory containing the unpacked extension
 
 ## How to use
-You can either start a search by clicking on the extension icon or by pressing `<ctrl + space>` on the keyboard, then type in the word or phrase you are looking for and press `<enter>`. If any text is selected when the popup window opens, qick-dict will automatically go ahead and use that text to search for a translation on dict.cc.
+You can either start a search by clicking on the extension icon or by pressing `<ctrl + space>` on the keyboard, then type in the word or phrase you are looking for and press `<enter>`. If any text is selected when the popup window opens, quick-dict will automatically go ahead and use that text to search for a translation on dict.cc.
 
 ## Limitations
 Since there is no options page implemented yet, the only way to change its behaviour is by modifing the source code itself.
